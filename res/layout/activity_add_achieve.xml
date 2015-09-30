@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@null"
+        android:src="@drawable/harley_logo" />
+
+    <ImageButton
+        android:id="@+id/backAchieveImageView"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@null"
+        android:src="@drawable/back_button" />
+
+    <TextView
+        android:id="@+id/achieveTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/logoImageView"
+        android:layout_marginTop="5dp"
+        android:background="@color/orange"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:text="@string/achieve_title"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/achieveFragmentListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/achieveTextView"
+        android:layout_marginTop="5dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/gray"
+        android:dividerHeight="1dp"
+        android:drawSelectorOnTop="true"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent" >
+    </ListView>
+    
+     <com.hdesign.ui.FooterBar
+        android:layout_alignParentBottom="true"
+        android:id="@+id/layoutFooterBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

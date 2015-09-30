@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HDesignApp</string>
+    
+   <string name="app_id">670974662945091</string>
+   
+   <string name="test_app_id">1443628145855793</string>
+   
+   <!-- Web Service -->
+   	<string name="server_busy">Check your Internet Connection.</string>
+	<string name="no_internet">Server is busy. Please Try Again.</string>
+	
+    <!-- Splash Screen -->
+    <string name="vehicle_id_number">VEHICLE IDENTIFICATION NUMBER</string>
+    <string name="forget_vid_number">FORGOT VEHICLE IDENTIFICATION NUMBER?</string>
+    <string name="enter_vin_number">Please Enter VIN</string>
+    
+    <!-- Forgot VIN Number -->
+    <string name="forget_vin_text">The VIN can be found on the bike,the invoice and the RC</string>
+    
+    <!-- Login Dialog -->
+    <string name="username">USERNAME</string>
+    <string name="edit_profile">EDIT YOUR PROFILE</string>
+    <string name="syn_profile">SYNC PROFILE WITH</string>
+     <string name="wrong_vin_number">You have entered wrong Credentials.</string>
+    
+    <!-- Profile Screen -->
+    <string name="my_profile">MY PROFILE</string>
+    <string name="street_job">MODEL NAME</string>
+    <string name="unique_number">MODEL NUMBER</string>
+    <string name="select_chapter">SELECT YOUR CHAPTER</string>
+    <string name="avatar_name">AVATAR NAME</string>
+    <string name="fellow_riders">What do you want your fellow riders to call you?</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="chapter_field_empty">Please Select Chapter.</string>
+    <string name="avatar_field_empty">Please Enter Avatar Name.</string>
+    <string name="update_profile_successfully">Profile updated successfully.</string>
+    <string name="profile_not_crop_image">Can not find image crop app.</string>
+    
+
+    <!-- Get Start App -->
+    <string name="get_started">GET STARTED</string>
+    <string name="learn_how_to_use_app">LEARN WHAT YOU CAN DO WITH THE APP</string>
+    
+    <!-- Home Screen -->
+    <string name="default_text">Text</string>
+    <string name="home_text">Home</string>
+    <string name="profile_text">Profile</string>
+    <string name="favorite_text">Favorite</string>
+    <string name="update_text">Update</string>
+    <string name="module_name">Module Name</string>
+    <string name="module_desc">Module Desc</string>
+    
+    <!-- Twitter Credentials -->
+    <string name="twitter_error">Twitter oAuth tokens", "Please set your twitter oauth tokens first!</string>
+    <string name="already_twitter_login">Already Logged into twitter.</string>
+    
+    <!-- Demo Screen -->
+    <string name="skip_demo">SKIP DEMO</string>
+    
+    <!-- Home Screen Modules Name -->
+    <string name="ride_on">RIDE ON</string>
+    <string name="hog">H.O.G</string>
+    <string name="my_harley">MY HARLEY</string>
+    <string name="my_chapter">MY CHAPTER</string>
+    <string name="roadside_ass">ROADSIDE ASSISTANCE</string>
+    <string name="events">EVENTS</string>
+    <string name="motorcycle">2014 MOTORCYCLES</string>
+    <string name="gallery">GALLERY</string>
+    <string name="tutorial">TUTORIAL</string>
+    
+    <!-- Profile Fragment -->
+    
+    <string name="name">NAME</string>
+    <string name="avatar">AVATAR</string>
+    <string name="bike_owned">BIKE OWNED</string>
+    <string name="vin_number">VIN NUMBER</string>
+    <string name="chapter">CHAPTER</string>
+    <string name="achievements">ACHIEVEMENTS</string>
+    <string name="text">TEXT</string>
+    
+    <!-- Achievements Screen -->
+    
+    <string name="achievements_record">4 Achievements</string>
+    <string name="achivement_name">Achievement Name</string>
+    <string name="add_more_achievement">ADD MORE ACHIEVEMENT</string>
+    <string name="achieve_title">ACHIEVEMENTS</string>
+    
+</resources>
